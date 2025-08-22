@@ -1,3 +1,5 @@
+<!-- Voice Translator Bot – Telegram Audio Translation Bot (HTML README) -->
+
 <h1 align="center">🎙️ Voice Translator Bot</h1>
 <p align="center">
 Send your voice messages to <strong>@Translatedbyvoisebot</strong> and get instant AI-powered translations in multiple languages!
@@ -5,13 +7,13 @@ Send your voice messages to <strong>@Translatedbyvoisebot</strong> and get insta
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-FFE100?style=flat-square&logo=python&logoColor=black" alt="Python Badge" />
-  <img src="https://img.shields.io/badge/Linux-FFE100?style=flat-square&logo=linux&logoColor=black" alt="Linux Badge" />
+  <img src="https://img.shields.io/badge/Google%20AI-FFE100?style=flat-square&logo=google&logoColor=black" alt="Google AI Badge" />
   <img src="https://img.shields.io/badge/Open%20Source-FFE100?style=flat-square&logo=github&logoColor=black" alt="Open Source Badge" />
 </p>
 
 <p align="center">
-  <a href="https://t.me/Translatedbyvoisebot" target="_blank" style="display:inline-block; padding:12px 24px; font-size:16px; color:black; background-color:#EBE389; border-radius:6px; text-decoration:none; border:none; outline:none;">
-    Start chatting with Voice Translator Bot
+  <a href="https://t.me/Translatedbyvoisebot" target="_blank" style="text-decoration:none; border:none; outline:none;">
+    <img src="https://img.shields.io/badge/@Translatedbyvoisebot-Chat_now-EBE389?style=flat-square&logo=telegram&logoColor=white" alt="Voice Translator Bot Badge" />
   </a>
 </p>
 <p align="center"><strong>Username:</strong> <code>@Translatedbyvoisebot</code></p>
@@ -37,7 +39,7 @@ Voice Translator Bot is a Telegram bot that converts your voice messages into te
 
 <h2> Project Structure </h2>
 <pre><code>VoiceTranslatorBot/
-├── main.py
+├── bot.py
 ├── requirements.txt
 └── .env
 </code></pre>
