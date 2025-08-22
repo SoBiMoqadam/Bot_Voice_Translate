@@ -39,7 +39,7 @@ Voice Translator Bot is a Telegram bot that converts your voice messages into te
 
 <h2> Project Structure </h2>
 <pre><code>VoiceTranslatorBot/
-├── bot.py
+├── main.py
 ├── requirements.txt
 └── .env
 </code></pre>
