@@ -1,28 +1,26 @@
 <h1 align="center">🎙️ Voice Translator Bot</h1>
 <p align="center">
-A smart Telegram bot that converts your voice messages to text and translates them instantly into your selected language. Powered by Python and Google Gemini AI!
+Send your voice messages to <strong>@Translatedbyvoisebot</strong> and get instant AI-powered translations in multiple languages!
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Telegram%20Bot-Voice%20Translator-FF6500?style=flat-square&logo=telegram&logoColor=white" alt="Telegram Badge" />
-  <img src="https://img.shields.io/badge/Made%20with-Python-EBD3F8?style=flat-square&logo=python&logoColor=black" alt="Python Badge" />
-  <img src="https://img.shields.io/badge/Docker-AD49E1?style=flat-square&logo=docker&logoColor=black" alt="Docker Badge" />
-  <img src="https://img.shields.io/badge/Open%20Source-EBD3F8?style=flat-square&logo=github&logoColor=black" alt="Open Source Badge" />
+  <img src="https://img.shields.io/badge/Python-FFE100?style=flat-square&logo=python&logoColor=black" alt="Python Badge" />
+  <img src="https://img.shields.io/badge/Linux-FFE100?style=flat-square&logo=linux&logoColor=black" alt="Linux Badge" />
+  <img src="https://img.shields.io/badge/Open%20Source-FFE100?style=flat-square&logo=github&logoColor=black" alt="Open Source Badge" />
 </p>
 
 <p align="center">
-  <a href="https://t.me/YourVoiceBotUsername" target="_blank" style="display:inline-block; padding:12px 24px; font-size:16px; color:white; background-color:#FF6500; border-radius:6px; text-decoration:none; border:none; outline:none;">
+  <a href="https://t.me/Translatedbyvoisebot" target="_blank" style="display:inline-block; padding:12px 24px; font-size:16px; color:black; background-color:#EBE389; border-radius:6px; text-decoration:none; border:none; outline:none;">
     Start chatting with Voice Translator Bot
   </a>
 </p>
-<p align="center"><strong>Username:</strong> <code>@YourVoiceBotUsername</code></p>
+<p align="center"><strong>Username:</strong> <code>@Translatedbyvoisebot</code></p>
 
 <hr/>
 
 <h2> About </h2>
 <p>
-<strong>Voice Translator Bot</strong> is a Telegram bot that converts your voice messages into text and translates them into your chosen language using Google Gemini AI.<br/>
-Built with Python and fully open-source. Can be deployed locally or via Docker.
+Voice Translator Bot is a Telegram bot that converts your voice messages into text and translates them instantly using AI. Fast, reliable, and supports multiple languages!
 </p>
 
 <hr/>
@@ -32,7 +30,6 @@ Built with Python and fully open-source. Can be deployed locally or via Docker.
   <li>Convert voice messages to text</li>
   <li>Translate text into multiple languages</li>
   <li>Easy to customize and extend</li>
-  <li>Docker support for deployment</li>
   <li>Runs continuously on servers</li>
 </ul>
 
@@ -40,9 +37,8 @@ Built with Python and fully open-source. Can be deployed locally or via Docker.
 
 <h2> Project Structure </h2>
 <pre><code>VoiceTranslatorBot/
-├── bot.py
+├── main.py
 ├── requirements.txt
-├── Dockerfile
 └── .env
 </code></pre>
 
@@ -68,7 +64,7 @@ venv\Scripts\activate      # Windows
 <h3>4. Configure environment</h3>
 <pre><code>TELEGRAM_BOT_TOKEN=your_api_token_here
 GOOGLE_API_KEY=your_google_api_key_here
-GEMINI_MODEL=gemini-1.5-flash  # optional, default gemini-1.5-flash
+GEMINI_MODEL=gemini-1.5-flash  # optional
 </code></pre>
 
 <hr/>
@@ -77,11 +73,6 @@ GEMINI_MODEL=gemini-1.5-flash  # optional, default gemini-1.5-flash
 
 <h3>Run locally</h3>
 <pre><code>python bot.py
-</code></pre>
-
-<h3>Run with Docker</h3>
-<pre><code>docker build -t voice_translator_bot .
-docker run -d --name voice_translator_bot --env-file .env voice_translator_bot
 </code></pre>
 
 <p><strong>⚠️ Do not upload .env file to GitHub.</strong></p>
