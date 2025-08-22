@@ -7,7 +7,7 @@ Send your voice messages to <strong>@Translatedbyvoisebot</strong> and get insta
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-FFE100?style=flat-square&logo=python&logoColor=black" alt="Python Badge" />
-  <<img src="https://img.shields.io/badge/Voice-FFE100?style=flat-square&logoColor=black" alt="Voice Badge" />
+  <img src="https://img.shields.io/badge/Voice-FFE100?style=flat-square&logoColor=black" alt="Voice Badge" />
   <img src="https://img.shields.io/badge/Open%20Source-FFE100?style=flat-square&logo=github&logoColor=black" alt="Open Source Badge" />
 </p>
 
